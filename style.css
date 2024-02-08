@@ -1,0 +1,136 @@
+/* basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* header */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+
+.header-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social {
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk,
+.social_icon_telegram,
+.social_icon_whatsUp {
+    width: 32px;
+    height: 23px;
+}
+
+.info-box {
+    margin-top: 50px;
+    display: flex;
+}
+
+.info-list>li {
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+}
+
+.right>li {
+    color: black;
+}
+
+
+.container__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+section>.container {
+    margin-left: 260px
+}
+
+.container>p {
+    color: rgb(188, 188, 194);
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.exp__wrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.exp__left {
+    font-weight: 400;
+    line-height: 28px;
+    width: 300px;
+}
+
+.exp__now {
+    color: rgb(47, 47, 51);
+}
+
+.exp__time {
+    color: rgb(188, 188, 194);
+}
+
+
+.exp__right {}
+
+.exp__tags {
+    color: rgb(255, 255, 255);
+    margin-bottom: 12px;
+}
+
+.exp__company {
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    background: rgb(169, 169, 253);
+}
+
+.exp__job {
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    background: rgb(241, 169, 253);
+    ;
+}
+
+.container__info li {
+    list-style-type: none;
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    background: rgb(245, 245, 250);
+}
+
+.container__info ul {
+    display: flex;
+    gap: 12px;
+}
